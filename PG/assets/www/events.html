@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cordova</title>
+<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+<style type="text/css">
+	*
+	{
+		padding:0;
+		margin:0;
+	}
+	.btn
+	{
+		display:block;
+		text-decoration:none;
+		color:black;
+		height:25px;
+		background-color:lightBlue;
+		border:1px solid #ddd;
+		padding:5px;
+		text-align:left;
+	}
+	.btn:hover
+	{
+		background-color:blue;
+	}
+	.width33
+	{
+		width:32%;
+		margin:10px;
+	}
+	.table td
+	{
+		margin:5px;
+	}
+</style>
+
+<script type="text/javascript">
+	function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+     }
+
+    function onDeviceReady() {
+
+        alert("device is ready");
+    }
+
+</script>
+</head>
+<body onload="onLoad()" 
+style="background-color:#ccc;margin:0px;padding-left:0;padding-right:0;">
+<div>
+	<h2 style="background-color:lightBlue;border:1px solid #ddd;text-align:center;width:100%;">
+		Advanced Visual Frameworks
+	</h2>
+	<button onclick="document.location='index.html'" >
+		Home
+	</button>
+</div>
+<div>
+	<div style="margin:10px;border:1px solid #ddd;text-align:left;background-color:lightGreen;">
+		<h4 style="border-bottom:1px solid #ddd;height:20px;text-align:center;" >
+			Events
+		</h4>
+		<div style="padding:10px;">
+			deviceready event
+		</div>
+	</div>	
+</div>
+<div>
+	<h6 style="background-color:lightBlue;border:1px solid #ddd;text-align:center;width:100%;">
+	&copy;Carmen John
+	</h6>
+</div>
+</body>
+</html>
+
+
+
